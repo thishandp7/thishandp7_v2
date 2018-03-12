@@ -1,0 +1,8 @@
+.body {
+  background-color: white;
+  border-radius: 0.2em;
+  height: 550px;
+  box-shadow: 0.1em 0.1em 0.1em #8e8e8e;
+  position: fixed;
+  width: 23.5em;
+}

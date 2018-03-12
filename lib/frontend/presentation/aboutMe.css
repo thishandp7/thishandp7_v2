@@ -1,0 +1,8 @@
+.image {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  background-color: blue;
+  margin: auto;
+  margin-top: 20px;
+}
