@@ -2,7 +2,7 @@
 
 html {
   background-color: #f2f2f2;
-  font-size: 0.5em;
+  font-size: 0.7em;
   font-family: 'Encode Sans Expanded', sans-serif;
 }
 
@@ -33,3 +33,20 @@ html {
 .col10 {width: 83.33%;}
 .col11 {width: 91.66%;}
 .col12 {width: 100%;}
+
+.sub{
+  width: 275px;
+  float:left;
+  padding: 3px;
+}
+.body{
+  width: 675px;
+  float:left;
+  padding: 3px;
+}
+
+.mainBody {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* align horizontal */
+}

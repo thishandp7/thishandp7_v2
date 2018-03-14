@@ -41,6 +41,7 @@
     "cssnext-loader": "^1.0.1",
     "ejs": "^2.5.7",
     "express": "^4.16.2",
+    "lodash": "^4.17.5",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-styleable": "^3.3.0",

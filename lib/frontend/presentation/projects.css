@@ -1,0 +1,9 @@
+.tools > span{
+  display: inline-block;
+  margin: 0.35em;
+}
+
+.period {
+  display: inline-block;
+  float: right;
+}

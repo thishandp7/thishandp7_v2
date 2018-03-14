@@ -1,8 +1,18 @@
+.aboutme {
+  margin:1em;
+}
+
 .image {
-  height: 100px;
-  width: 100px;
+  height: 110px;
+  width: 110px;
   border-radius: 100%;
   background-color: blue;
   margin: auto;
   margin-top: 20px;
+}
+
+.name {
+}
+
+.profile {
 }
