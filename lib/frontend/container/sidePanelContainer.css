@@ -1,8 +1,16 @@
 .body {
   background-color: white;
   border-radius: 0.2em;
-  height: 60.5em;
+  height: 54.5em;
   box-shadow: 0.1em 0.1em 0.1em #8e8e8e;
   position: fixed;
-  width: 22em;
+  padding: 0.1em;
+}
+
+@media only screen and (max-width: 905px){
+  .body {
+    height: 12em;
+    position: relative;
+    margin: 0.5em;
+  }
 }

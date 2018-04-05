@@ -1,14 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Expanded');
-
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Maven+Pro|Poiret+One');
 html {
   background-color: #f2f2f2;
-  font-size: 0.7em;
-  font-family: 'Encode Sans Expanded', sans-serif;
+  font-size: 0.80em;
+  font-family: 'Poiret One', cursive;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Maven Pro', sans-serif;
 }
 
 * {
   box-sizing: border-box;
 }
+
 .row::after {
     content: "";
     clear: both;
@@ -38,15 +40,43 @@ html {
   width: 275px;
   float:left;
   padding: 3px;
+  margin-right: 3em;
+  position: relative;
+  height: 200px;
 }
 .body{
   width: 675px;
   float:left;
   padding: 3px;
+  position: relative;
+  height: 200px;
 }
-
 .mainBody {
   width: 100%;
   display: flex;
   justify-content: center; /* align horizontal */
+}
+
+@media only screen and (max-width: 905px){
+  html {
+    /* background-color: red; */
+  }
+
+  .sub{
+    float:none;
+    position: relative;
+    width: 800px;
+    margin:auto;
+    margin-bottom: -2.2em;
+  }
+  .body{
+    width: 800px;
+    float:none;
+    position: relative;
+    margin:auto;
+  }
+  .mainBody {
+    width: 100%;
+    display: block;
+  }
 }

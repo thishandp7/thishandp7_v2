@@ -2,3 +2,15 @@
   display: inline-block;
   float: right;
 }
+
+.experienceBody li > h3 {
+  margin-bottom: -1em;
+}
+
+.experienceBody {
+  background-color: white;
+  border-radius: 0.2em;
+  box-shadow: 0.1em 0.1em 0.1em #8e8e8e;
+  padding: 1em;
+  margin-bottom: 1em;
+}

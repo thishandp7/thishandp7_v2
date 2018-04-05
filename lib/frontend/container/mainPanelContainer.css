@@ -1,7 +1,8 @@
 .body {
-  background-color: white;
+  /* background-color: white;
   border-radius: 0.2em;
-  box-shadow: 0.1em 0.1em 0.1em #8e8e8e;
+  box-shadow: 0.1em 0.1em 0.1em #8e8e8e;*/
   height: 150em;
-  padding: 1em;
+  padding: 0.5em;
+  margin-top: -0.5em;
 }

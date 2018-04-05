@@ -2,7 +2,39 @@
   margin:1em;
 }
 
-.contact > div > h3{
+.contact > div > h3 {
   margin-top: 1em;
   margin-bottom: 0.5em;
+}
+
+@media only screen and (max-width: 905px){
+
+  .contact {
+    position: absolute;
+    left: 13.4em;
+    top: 5.8em;
+    font-size: 0.95em;
+  }
+
+  .contact > h2 {
+    display: none;
+  }
+
+  .contact > div {
+    margin-bottom: 0.2em;
+  }
+
+  .contact > div > h3 {
+    margin-top: -0.15em;
+    position: absolute;
+  }
+
+  .contact > div > span {
+    position: relative;
+    margin-left: 5em;
+  }
+
+  .contact > :nth-last-child(1){
+    display: none;
+  }
 }

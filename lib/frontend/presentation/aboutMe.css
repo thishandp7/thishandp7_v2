@@ -1,5 +1,7 @@
 .aboutme {
+  position: relative;
   margin:1em;
+  width: 250px;
 }
 
 .image {
@@ -12,7 +14,35 @@
 }
 
 .name {
+  margin-bottom: -1em;
 }
 
 .profile {
+}
+
+.name > div {
+  margin-top: -1.5em;
+}
+
+@media only screen and (max-width: 905px){
+  .image {
+    background-color: blue;
+    margin: auto;
+    margin-top: -3px;
+    margin-left: 25px;
+    margin-right: 25px;
+    float: left;
+  }
+
+  .name {
+    font-size: 1.3em;
+  }
+
+  .aboutme {
+    width: 675px;
+  }
+
+  .profile {
+    display: none;
+  }
 }
