@@ -9,7 +9,8 @@ const config = {
   module: {
     rules: [
       { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader' },
-      { test: /\.css$/, loader: ['style-loader', 'css-loader?modules&localIdentName=[local]---[hash:base64:5]'] }
+      { test: /\.css$/, loader: ['style-loader', 'css-loader?modules&localIdentName=[local]---[hash:base64:5]'] },
+      { test: /\.jpg$/, loader: 'file-loader' }
     ]
   }
 };

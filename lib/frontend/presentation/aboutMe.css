@@ -5,12 +5,17 @@
 }
 
 .image {
-  height: 110px;
-  width: 110px;
+  height: 17em;
+  width: 17em;
   border-radius: 100%;
   background-color: blue;
   margin: auto;
   margin-top: 20px;
+}
+
+.image > img {
+  border-radius: 100%;
+  width: 17em;
 }
 
 .name {
@@ -18,6 +23,11 @@
 }
 
 .profile {
+  margin-top:2em;
+}
+
+.profile > h2{
+  margin-bottom: 5px;
 }
 
 .name > div {
@@ -26,9 +36,11 @@
 
 @media only screen and (max-width: 905px){
   .image {
+    height: 10em;
+    width: 10em;
     background-color: blue;
     margin: auto;
-    margin-top: -3px;
+    margin-top: -10px;
     margin-left: 25px;
     margin-right: 25px;
     float: left;
@@ -44,5 +56,9 @@
 
   .profile {
     display: none;
+  }
+
+  .image > img {
+    width: 10em;
   }
 }

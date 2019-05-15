@@ -19,3 +19,32 @@
   padding: 1em;
   margin-bottom: 1em;
 }
+
+.pieChart {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  border-radius: 100%;
+  float:left;
+  margin-top: -1em;
+  margin-right:1em;
+}
+
+.pieChart > h4 {
+  text-align: center;
+  margin-bottom: 0.8em;
+}
+
+.projectsBody > ul > li {
+  height: 10em;
+  margin-bottom: 8em;
+}
+
+.description {
+}
+
+.projectsBody > ul > li > a{
+  float:right;
+  position: relative;
+  margin-top: 2em;
+}
