@@ -1,24 +1,22 @@
 .skillContainer {
-  width: 105px;
-  height: 105px;
-  /* border-radius: 100%;
-  background: red; */
-  margin:15px;
-  padding: 20px;
-  text-align: center;
+  position: relative;
 }
 
 .skill {
-  color:red;
-  width: 100px;
-  height: 100px;
-}
-
-.skillLevel {
 
 }
 
-.SkillName {
-  fill: white;
-  font-weight: bold;
+.skillDataContainer {
+  position: absolute;
+  bottom: 0em;
+  left: 5em;
+}
+
+.skillData {
+  border-radius: 0.1em;
+  background-color: #2e65c2;
+  float: left;
+  width: 3em;
+  height: 1em;
+  margin-left: 0.3em;
 }
